@@ -1025,7 +1025,8 @@ ${bb++}.${simbol} #sound25`
 but = [
 { buttonId: `${prefix}nekopoi9`, buttonText: { displayText: '�dont click this button�' }, type: 1 },
 { buttonId: `${prefix}owner`, buttonText: { displayText: '️𝙊𝙬𝙣𝙚𝙧 𝘽𝙤𝙩🤖️' }, type: 1 },
-{ buttonId: `${prefix}instaow`, buttonText: { displayText: 'insta dono' }, type: 1 }
+{ buttonId: `${prefix}instaow`, buttonText: { displayText: 'insta dono' }, type: 1 },
+{ buttonId: `${prefix}ping`, buttonText: { displayText: 'PING' }, type: 1 }
 ]
 sendButLoc(from, st, st2, img1, but)
 Lexxy.sendMessage(from, yu, audio, { mimetype: 'audio/mp4', ptt:true })
@@ -1046,7 +1047,7 @@ buff2 =await getBuffer (anu.result.female)
 Lexxy.sendMessage(from, buff2, image, {quoted: mek, caption: '_Nih kak ceweknya_'})
 break
 case 'speed':
-     'ping':
+case  'ping':
 const gky = speed();
 const gby = speed() - gky
 reply2('meu ping: *${gby.toFixed(4)}* ms ')
