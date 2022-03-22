@@ -15,7 +15,7 @@ GroupSettingChange,
 waChatKey,
 mentionedJid,
 processTime,
-} = require('@adiwajshing/baileys')
+} = require('@adiwajshing/baileysx')
 const fs = require('fs')
 const hx = require('hxz-api')
 const qrcodes = require("qrcode")
