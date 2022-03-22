@@ -1050,7 +1050,7 @@ case 'speed':
 case  'ping':
 const gky = speed();
 const gby = speed() - gky
-reply2('meu ping: *${gby.toFixed(4)}* ms ')
+reply2(`meu ping: *${gby.toFixed(4)}* ms `)
 break
 case 'cekprem':
 reply2(`𝐒𝐭𝐚𝐭𝐮𝐬 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 : *${isPremier? "aktif":"tidak"}*`)
